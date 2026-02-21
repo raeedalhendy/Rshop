@@ -12,7 +12,7 @@ export default function CartPage() {
     .map((p) => `${p.title} × ${p.quantity} = $${p.price * p.quantity}`)
     .join("\n");
 
-  const whatsappURL = `https://wa.me/963900000000?text=مرحباً، أريد الطلب التالي:\n\n${whatsappMsg}\n\nالمجموع: $${subtotal}`;
+  const whatsappURL = `https://wa.me/963969477454?text=مرحباً، أريد الطلب التالي:\n\n${whatsappMsg}\n\nالمجموع: $${subtotal}`;
 
   return (
     <div className="w-full py-16 px-6 md:px-20 flex flex-col lg:flex-row gap-12">
