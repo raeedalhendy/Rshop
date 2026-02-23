@@ -54,15 +54,7 @@ const Header = () => {
             )}
           </div>
 
-          {/* Search */}
-          <div className="flex items-center w-full bg-gray-100 rounded-lg px-4 py-2">
-            <input
-              type="search"
-              placeholder="ابحث عن رائحتك المفضلة..."
-              className="w-full bg-transparent outline-none text-sm text-gray-900"
-            />
-            <FiSearch className="w-5 h-5 text-gray-500" />
-          </div>
+          
         </div>
 
         {/* ------------ LEFT SIDE: NAVIGATION ------------ */}
@@ -117,7 +109,7 @@ const Header = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 md:hidden"
+          className="fixed inset-0 bg-black/40 backdrop-blur-sm z-40 md:hidden h-[100vh]"
         />
       )}
 
@@ -163,6 +155,18 @@ const Header = () => {
             >
               تواصل معنا
             </NavLink>
+            <div
+            className="relative bg-gray-100 p-3 rounded-3xl cursor-pointer hover:bg-gray-200 transition w-13"
+            onClick={() => navigate("/candles/cart")}
+          >
+            <FiShoppingCart className="w-6 h-6 text-gray-700" />
+
+            {cart.length > 0 && (
+              <span className="absolute -top-2 -right-2 bg-yellow-500 text-white text-xs px-2 py-1 rounded-full">
+                {cart.length}
+              </span>
+            )}
+          </div>
           </nav>
         </motion.div>
       )}
