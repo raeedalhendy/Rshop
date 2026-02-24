@@ -12,7 +12,7 @@ import CartPage from "../stores/candles/page/CartPage";
 
 // WATCHES
 import WatchLayout from "../stores/watches/components/WatchLayout";
-import WatchHome from "../stores/watches/page/WatchHome";
+import WatchHome from "../stores/watches/page/WatchHome.jsx";
 import WatchCategories from "../stores/watches/page/WatchCategories";
 import WatchCategoryPage from "../stores/watches/page/WatchCategoryPage";
 import WatchProducts from "../stores/watches/page/WatchProducts";
