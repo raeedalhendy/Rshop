@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import heroImg from "../assets/hero.png";
 import cat1 from "../assets/cat1.png";
 import cat2 from "../assets/cat2.png";
 import cat3 from "../assets/cat3.png";
@@ -17,7 +16,7 @@ export default function WatchHome() {
       <section className="relative w-full h-[650px] md:h-[750px]">
 
         <motion.img
-          src={heroImg}
+          src="../assets/hero.png"
           alt="Premium Watch"
           initial={{ scale: 1.2, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -93,7 +92,7 @@ export default function WatchHome() {
           onClick={() => navigate("/watches/category/classic")}
         >
           <img
-            src={cat1}
+            src="../assets/cat1.png"
             alt="Classic Series"
             className="w-full h-80 object-cover group-hover:scale-110 transition duration-500"
           />
@@ -111,7 +110,7 @@ export default function WatchHome() {
           onClick={() => navigate("/watches/category/minimal")}
         >
           <img
-            src={cat2}
+            src="../assets/cat2.png"
             alt="Minimal"
             className="w-full h-80 object-cover group-hover:scale-110 transition duration-500"
           />
@@ -129,7 +128,7 @@ export default function WatchHome() {
           onClick={() => navigate("/watches/category/aviation")}
         >
           <img
-            src={cat3}
+            src="../assets/cat3.png"
             alt="Aviation"
             className="w-full h-80 object-cover group-hover:scale-110 transition duration-300"
           />
