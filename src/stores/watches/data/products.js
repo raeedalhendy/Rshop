@@ -1,12 +1,12 @@
 // 📁 src/stores/watches/data/products.js
 
 // استيراد الصور (استبدل الروابط حسب ملفاتك)
-import classic1 from "../assets/cat1.png";
-import classic2 from "../assets/cat2.png";
-import minimal1 from "../assets/cat3.png";
-import minimal2 from "../assets/cat1.png";
-import aviation1 from "../assets/cat2.png";
-import aviation2 from "../assets/cat3.png";
+import classic1 from "../image/cat1.png";
+import classic2 from "../image/cat2.png";
+import minimal1 from "../image/cat3.png";
+import minimal2 from "../image/cat1.png";
+import aviation1 from "../image/cat2.png";
+import aviation2 from "../image/cat3.png";
 
 export const watchProducts = [
   // ---------------- CLASSIC ----------------

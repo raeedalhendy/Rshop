@@ -2,9 +2,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import cat1 from "../assets/cat1.png";
-import cat2 from "../assets/cat2.png";
-import cat3 from "../assets/cat3.png";
+import cat1 from "../image/cat1.png";
+import cat2 from "../image/cat2.png";
+import cat3 from "../image/cat3.png";
 
 export default function WatchCategories() {
   const navigate = useNavigate();

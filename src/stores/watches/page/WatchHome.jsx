@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import heroImgW from "../assets/heroW.png";
-import Wcat1 from "../assets/cat1.png";
-import Wcat2 from "../assets/cat2.png";
-import Wcat3 from "../assets/cat3.png";
+import heroImgW from "../image/heroW.png";
+import Wcat1 from "../image/cat1.png";
+import Wcat2 from "../image/cat2.png";
+import Wcat3 from "../image/cat3.png";
 
 export default function WatchHome() {
   const navigate = useNavigate();
