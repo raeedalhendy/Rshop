@@ -3,7 +3,7 @@ import { Outlet, NavLink, useNavigate } from "react-router-dom";
 import { FiSearch, FiShoppingBag, FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { useWatchCart } from "../hooks/useWatchCart.jsx";
-import logo from "../image/logow.png";
+import logow from "../image/logow.png";
 
 export default function WatchLayout() {
   const navigate = useNavigate();
@@ -37,7 +37,7 @@ const { cart } = useWatchCart();
             className="hidden md:flex items-center gap-2 cursor-pointer"
             onClick={() => navigate("/watches")}
           >
-            <img src={logo} className="h-10" />
+            <img src={logow} className="h-10" />
           </div>
 
           {/* Desktop Nav */}
@@ -88,7 +88,7 @@ const { cart } = useWatchCart();
         className="fixed top-0 left-0 w-64 h-full bg-[#111] z-50 p-6 shadow-xl md:hidden"
       >
         <div className="flex justify-between mb-8">
-          <img src={logo} className="h-10" />
+          <img src={logow} className="h-10" />
           <button onClick={() => setMenuOpen(false)}>
             <FiX className="text-2xl" />
           </button>
