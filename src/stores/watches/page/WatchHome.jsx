@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
-import heroImgW from "../image/heroW.png";
+import horologuehero from "../image/horologuehero.png";
 import Wcat1 from "../image/cat1.png";
 import Wcat2 from "../image/cat2.png";
 import Wcat3 from "../image/cat3.png";
@@ -17,7 +17,7 @@ export default function WatchHome() {
       <section className="relative w-full h-[650px] md:h-[750px]">
 
         <motion.img
-          src={heroImgW}
+          src={horologuehero}
           alt="Premium Watch"
           initial={{ scale: 1.2, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
