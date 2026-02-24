@@ -3,7 +3,7 @@ import { Outlet, NavLink, useNavigate } from "react-router-dom";
 import { FiSearch, FiShoppingBag, FiMenu, FiX } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { useWatchCart } from "../hooks/useWatchCart.jsx";
-import logoW from "../assets/logo.png";
+import logoW from "../assets/logow.png";
 
 export default function WatchLayout() {
   const navigate = useNavigate();
