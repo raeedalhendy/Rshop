@@ -6,13 +6,13 @@ export const stores = [
     id: "candles",
     title: "Candles Glow Store",
     description: "شموع فاخرة وروائح طبيعية.",
-    image: "../image/candleimage.jpg",
+    image: candleimage,
   },
   {
     id: "watches",
     title: "متجر الساعات",
     description: "ساعات أنيقة وعصرية.",
-    image: "../image/watchimage.png",
+    image: watchimage,
   },
 
-];
+]
