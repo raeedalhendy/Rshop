@@ -37,7 +37,7 @@ const { cart } = useWatchCart();
             className="hidden md:flex items-center gap-2 cursor-pointer"
             onClick={() => navigate("/watches")}
           >
-            <img src={logo} className="h-10" />
+            <img src="../assets/logo.png" className="h-10" />
           </div>
 
           {/* Desktop Nav */}
